@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+ <html> 
+  <head> 
+   <title>MY HTML AND CSS PRACTICE</title> 
+    <style> 
+      body{
+       background-color:green;
+       }
+      h1{
+        font-size:60px;
+        color:yellow;
+        text-align:centre;
+        }
+      h2{
+        color:yellow;
+        font-size:48px;
+        text-align:centre;
+        }
+      li{
+        font-size:30px;
+        font-weight:700;
+        color:black;
+        }
+      .next{
+        text-transform:capitalize;
+        font-weight:700;
+        }
+    </style> 
+  </head>
+
+
+  <body> 
+     
+     <header>
+      <h1>STARTHUB CALABAR</h1> 
+      <p><u>"<i>you have</i><b>THE WILL</b>, <i>we have</i><b>THE WAY</b>"</u></p> 
+     </header> 
+     
+     <main> 
+       <h2>OUR SERVICES INCLUDE;</h2> 
+        <ul> 
+         <li>Shared Workspaces</li> 
+         <li>Ideas Incubator</li> 
+         <li>Seminar/Conference Venue</li> 
+         <li>Web/Mobile/Social Media Online Marketing</li> 
+        </ul> 
+      </main>
+
+      <footer>
+        <p class="next">TO SIGN UP, COMPLETE YOUR DETAILS BELOW AND CLICK "OK"</p> 
+        <form> 
+         <level for="Names">Name(Surname first):</level> input type="text" id="Names"
+         <br> 
+         <level for="Email">Email:</level> input type="text" id="Names"
+         <br> 
+         <level for="Gender">Gender:</level> 
+          <level for="male">Male</level> input type="checkbox" id="male"
+          <level for="female">Female</level> input type="checkbox" id="female"
+          <br><br> 
+          <input type="SUBMIT" value="OK"> 
+        </form> 
+      </footer> 
+
+  </body> 
+</html>
